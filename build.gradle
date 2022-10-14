@@ -16,7 +16,6 @@ dependencies {
     implementation 'org.terasoluna.gfw:terasoluna-gfw-jodatime-dependencies:5.7.1.RELEASE'
 
     //implementation 'org.codehaus.groovy:groovy-all:3.0.5'
-
 }
 
 test {
