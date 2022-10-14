@@ -1,5 +1,6 @@
 plugins {
     id 'java'
+    id 'war'
 }
 
 group 'org.SoftwareAssignment1'
@@ -7,6 +8,12 @@ version '1.0-SNAPSHOT'
 
 repositories {
     mavenCentral()
+}
+
+war {
+    enabled=true
+    archiveBaseName = 'assignment1WarFile'
+    archiveVersion =  '0.1.0'
 }
 
 dependencies {
