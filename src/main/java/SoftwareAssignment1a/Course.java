@@ -5,29 +5,29 @@ import org.joda.time.DateTime;
 
 public class Course
 {
-    private String name;
+    private String CourseName;
     private DateTime startDate;
     private DateTime endDate;
     private ArrayList<Module> modules;
     private ArrayList<Student> students;
 
-    public Course(String name, DateTime startDate, DateTime endDate)
+    public Course(String CourseName, DateTime startDate, DateTime endDate)
     {
-        this.name = name;
+        this.CourseName = CourseName;
         this.startDate = startDate;
         this.endDate = endDate;
         this.modules = new ArrayList<Module>();
         this.students = new ArrayList<Student>();
     }
 
-    public String getName()
+    public String getCourseName()
     {
-        return name;
+        return CourseName;
     }
 
-    public void setName(String name)
+    public void setCourseName(String CourseName)
     {
-        this.name = name;
+        this.CourseName = CourseName;
     }
 
     public DateTime getStartDate()

@@ -6,20 +6,20 @@ import java.util.ArrayList;
 
 public class Student
 {
-    private String name;
-    private int age;
-    private String dob;
-    private String id;
+    private String studentName;
+    private int studentAge;
+    private String studentDob;
+    private String studentId;
     private String userName;
     private ArrayList<Course> courses;
     private ArrayList<Module> modules;
 
-    public Student(String name, int age, String id, String dob)
+    public Student(String studentName, int studentAge, String studentId, String studentDob)
     {
-        this.name = name;
-        this.age = age;
-        this.id = id;
-        this.dob = dob;
+        this.studentName = studentName;
+        this.studentAge = studentAge;
+        this.studentId = studentId;
+        this.studentDob = studentDob;
         this.courses = new ArrayList<Course>();
         this.modules = new ArrayList<Module>();
         genUserName();
@@ -27,47 +27,47 @@ public class Student
 
     private void genUserName()
     {
-        this.userName = name + age;
+        this.userName = studentName + studentAge;
     }
 
-    public String getName()
+    public String getStudentName()
     {
-        return name;
+        return studentName;
     }
 
-    public void setName(String name)
+    public void setStudentName(String name)
     {
-        this.name = name;
+        this.studentName = studentName;
     }
 
-    public int getAge()
+    public int getStudentAge()
     {
-        return age;
+        return studentAge;
     }
 
-    public void setAge(int age)
+    public void setStudentAge(int studentAge)
     {
-        this.age = age;
+        this.studentAge = studentAge;
     }
 
-    public String getDob()
+    public String getStudentDob()
     {
-        return dob;
+        return studentDob;
     }
 
-    public void setDob(String dob)
+    public void setStudentDob(String studentDob)
     {
-        this.dob = dob;
+        this.studentDob = studentDob;
     }
 
-    public String getId()
+    public String getStudentId()
     {
-        return id;
+        return studentId;
     }
 
-    public void setId(String id)
+    public void setStudentId(String studentId)
     {
-        this.id = id;
+        this.studentId = studentId;
     }
 
     public String getUserName()

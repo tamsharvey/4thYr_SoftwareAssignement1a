@@ -6,20 +6,20 @@ import java.util.ArrayList;
 
 public class Lecturer
 {
-    private String name;
-    private int age;
-    private String dob;
-    private String id;
+    private String lecturerName;
+    private int lecturerAge;
+    private String lecturerDob;
+    private String lecturerId;
     private String userName;
     private ArrayList<Course> lectureAssignedCourses;
     private ArrayList<Module> assignedModules;
 
-    public Lecturer(String name, int age, String id, String dob)
+    public Lecturer(String lecturerName, int lecturerAge, String lecturerId, String lecturerDob)
     {
-        this.name = name;
-        this.age = age;
-        this.id = id;
-        this.dob =dob;
+        this.lecturerName = lecturerName;
+        this.lecturerAge = lecturerAge;
+        this.lecturerId = lecturerId;
+        this.lecturerDob = lecturerDob;
         this.assignedModules =new ArrayList<Module>();
         this.lectureAssignedCourses = new ArrayList<Course>();
         genUserName();
@@ -27,47 +27,47 @@ public class Lecturer
 
     private void genUserName()
     {
-        this.userName = name + age;
+        this.userName = lecturerName + lecturerAge;
     }
 
-    public String getName()
+    public String getLecturerName()
     {
-        return name;
+        return lecturerName;
     }
 
-    public void setName(String name)
+    public void setLecturerName(String name)
     {
-        this.name = name;
+        this.lecturerName = lecturerName;
     }
 
-    public int getAge()
+    public int getLecturerAge()
     {
-        return age;
+        return lecturerAge;
     }
 
-    public void setAge(int age)
+    public void setLecturerAge(int lecturerAge)
     {
-        this.age = age;
+        this.lecturerAge = lecturerAge;
     }
 
-    public String getDob()
+    public String getLecturerDob()
     {
-        return dob;
+        return lecturerDob;
     }
 
-    public void setDob(String dob)
+    public void setLecturerDob(String lecturerDob)
     {
-        this.dob = dob;
+        this.lecturerDob = lecturerDob;
     }
 
-    public String getId()
+    public String getLecturerIdId()
     {
-        return id;
+        return lecturerId;
     }
 
-    public void setId(String id)
+    public void setLecturerIdId(String lecturerId)
     {
-        this.id = id;
+        this.lecturerId = lecturerId;
     }
 
     public String getUserName()
