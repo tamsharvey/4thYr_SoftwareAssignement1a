@@ -14,7 +14,8 @@ public class Student
     private ArrayList<Course> courses;
     private ArrayList<Module> modules;
 
-    public Student(String name, int age, String id, String dob){
+    public Student(String name, int age, String id, String dob)
+    {
         this.name = name;
         this.age = age;
         this.id = id;
