@@ -10,11 +10,10 @@ public class Module
     private ArrayList<Student> AssignedStudents;
     private ArrayList<Course> courseAssociated;
 
-    public Module(String modName, String modID, Lecturer lecturer)
+    public Module(String modName, String modID)
     {
         this.modName = modName;
         this.modID = modID;
-        this.lecturer = lecturer;
         this.AssignedStudents = new ArrayList<Student>();
         this.courseAssociated = new ArrayList<Course>();
     }
