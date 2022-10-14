@@ -1,0 +1,24 @@
+plugins {
+    id 'java'
+}
+
+group 'org.SoftwareAssignment1'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.9.0'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.9.0'
+    implementation 'org.terasoluna.gfw:terasoluna-gfw-jodatime-dependencies:5.7.1.RELEASE'
+
+    //implementation 'org.codehaus.groovy:groovy-all:3.0.5'
+
+}
+
+test {
+    useJUnitPlatform()
+}
