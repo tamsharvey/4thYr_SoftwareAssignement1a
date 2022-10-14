@@ -2,7 +2,6 @@ package org.SoftwareAssignment1a;
 
 import SoftwareAssignment1a.Lecturer;
 import SoftwareAssignment1a.Student;
-import org.joda.time.DateTime;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
