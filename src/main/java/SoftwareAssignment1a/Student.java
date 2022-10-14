@@ -22,7 +22,12 @@ public class Student
         this.dob = dob;
         this.courses = new ArrayList<Course>();
         this.modules = new ArrayList<Module>();
-        getUserName();
+        genUserName();
+    }
+
+    private void genUserName()
+    {
+        this.userName = name + age;
     }
 
     public String getName()

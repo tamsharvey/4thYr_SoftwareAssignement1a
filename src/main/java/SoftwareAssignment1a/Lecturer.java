@@ -22,10 +22,10 @@ public class Lecturer
         this.dob =dob;
         this.assignedModules =new ArrayList<Module>();
         this.lectureAssignedCourses = new ArrayList<Course>();
-        genuserName();
+        genUserName();
     }
 
-    private void genuserName()
+    private void genUserName()
     {
         this.userName = name + age;
     }
