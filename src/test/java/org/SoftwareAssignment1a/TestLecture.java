@@ -20,7 +20,7 @@ public class TestLecture
     @Test
     public void testGenUsernameLecturer()
     {
-        assertEquals("Paul47", student.getUserName());
+        assertEquals("Paul47", lecturer.getUserName());
     }
 
 
