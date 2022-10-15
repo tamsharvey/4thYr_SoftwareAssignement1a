@@ -3,7 +3,7 @@ plugins {
     id 'war'
 }
 
-group 'org.SoftwareAssignment1'
+group 'org.SoftwareAssignment1a'
 version '1.0-SNAPSHOT'
 
 repositories {

@@ -21,6 +21,4 @@ public class TestLecture
     {
         assertEquals("Paul47", lecturer.getUserName());
     }
-
-
 }
