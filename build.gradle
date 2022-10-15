@@ -11,7 +11,7 @@ repositories {
 }
 
 war {
-    enabled=true
+    enabled = true
     archiveBaseName = 'assignment1WarFile'
     archiveVersion =  '0.1.0'
 }
