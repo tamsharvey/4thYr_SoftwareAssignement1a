@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.SoftwareAssignment1a.TestLecture" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-10-15T12:42:09" hostname="Tamsins-MacBook-Pro.local" time="0.016">
+<testsuite name="org.SoftwareAssignment1a.TestLecture" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-10-15T12:53:57" hostname="Tamsins-MacBook-Pro.local" time="0.013">
   <properties/>
-  <testcase name="testGenUsernameLecturer()" classname="org.SoftwareAssignment1a.TestLecture" time="0.014"/>
-  <testcase name="testGenUsernameStudent()" classname="org.SoftwareAssignment1a.TestLecture" time="0.001"/>
+  <testcase name="testGenUsernameLecturer()" classname="org.SoftwareAssignment1a.TestLecture" time="0.012"/>
+  <testcase name="testGenUsernameStudent()" classname="org.SoftwareAssignment1a.TestLecture" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
