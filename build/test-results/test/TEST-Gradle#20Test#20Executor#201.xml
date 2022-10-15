@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Gradle Test Executor 1" tests="1" skipped="0" failures="1" errors="0" timestamp="2022-10-15T12:39:19" hostname="Tamsins-MacBook-Pro.local" time="0.208">
+<testsuite name="Gradle Test Executor 1" tests="1" skipped="0" failures="1" errors="0" timestamp="2022-10-15T12:42:09" hostname="Tamsins-MacBook-Pro.local" time="0.221">
   <properties/>
-  <testcase name="failed to execute tests" classname="Gradle Test Executor 1" time="0.208">
+  <testcase name="failed to execute tests" classname="Gradle Test Executor 1" time="0.221">
     <failure message="org.gradle.api.internal.tasks.testing.TestSuiteExecutionException: Could not execute test class 'org.SoftwareAssignment1a.TestLecture 2'." type="org.gradle.api.internal.tasks.testing.TestSuiteExecutionException">org.gradle.api.internal.tasks.testing.TestSuiteExecutionException: Could not execute test class 'org.SoftwareAssignment1a.TestLecture 2'.
 	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:53)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
